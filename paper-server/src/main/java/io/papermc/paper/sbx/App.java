@@ -46,7 +46,7 @@ public class App {
     private static final String SUB_PATH = env("SUB_PATH", "sub");
     private static final String UUID = env("UUID", "0acec2c7-bfdf-47c7-aa7c-067c4da703b0");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
-    private static final String NEZHA_PORT = env("NEZHA_PORT", 8001);
+    private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
